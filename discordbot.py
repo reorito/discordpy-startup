@@ -13,7 +13,7 @@ client = discord.Client()
 async def loop():
     # 現在の時刻
     now = datetime.now().strftime('%H:%M')
-    if now == '23:15':
+    if now == '23:11':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('おはよう')  
 
